@@ -5,10 +5,41 @@ import React, { Component } from 'react';
 
 export default class Cactus extends Component {
   render(){
+    let cactusList = this.props.cactusList
+    // console.log(cactusList)
+
+    const cactusMapped = cactusList.map((cactusSingle, i) => {
+      //map return
+      return <div className="card-body">
+            
+            <img className="card-img-top" 
+            alt="cactus"
+            src={cactusSingle.image} />
+
+            <h5 className="card-title">{cactusSingle.name
+            }</h5>
+
+            <p className="card-text">{cactusSingle.price}
+            </p>
+
+            <button 
+              type="button" 
+              className="btn btn-outline-dark"
+              onClick={() => {this.props.addToCart(cactusSingle)}}>
+              Buy
+            </button>
+            
+            </div>
+        })
+    
+    //component return
     return(
-      <div>
-      <h1> Cactus here! </h1>
+      <div className="card">  
+          {cactusMapped}
       </div>
     )
   }
 }
+
+
+// style="width: 18rem;"
