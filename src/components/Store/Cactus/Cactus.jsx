@@ -37,7 +37,7 @@ export default class Cactus extends Component {
       <div className="card">  
           {cactusMapped}
       </div>
-    )
+    ) 
   }
 }
 

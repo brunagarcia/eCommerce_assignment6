@@ -12,6 +12,7 @@ export default class Store extends Component {
     console.log(this.props.cactusList + 'Print Store')
     return(
         <div>
+          <h2>Hello {this.props.username}! Welcome to plants!!!</h2>
           <h2>Store Page</h2>
 
           <Link to="/store/cactus">
@@ -48,7 +49,9 @@ export default class Store extends Component {
             <Route 
               path='/store/cart' 
               render={() => { 
-              return <Cart cart={this.props.cart} />}} 
+              return <Cart 
+              username={this.props.username}
+              cart={this.props.cart} />}} 
               />
 
           </Switch>  
