@@ -17,7 +17,7 @@ export default class Home extends Component {
   
   render(){
 
-    return <div> 
+    return <div className="homeContent"> 
           <h2>Hello {this.props.username}! Welcome to plants!!!</h2> 
               <form onSubmit={(e)=>{this.props.addName(e, this.state.username)}
             }>

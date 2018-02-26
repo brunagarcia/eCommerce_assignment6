@@ -26,8 +26,16 @@
   to { transform: rotate(360deg); }
 }
 
+.navbar .my-2 .my-md-0 .mr-md-3 .box-shadow{
+  margin-bottom: 0;
+}
+
 .nav{
   align-content: center;
+}
+
+.mb-3 .my-3{
+  margin-bottom: 0%;
 }
 
 .card-img-top{
@@ -35,11 +43,20 @@
 }
 
 .table{
+  align-content: center;
   width: 90%;
   margin: 2%;
 }
 
-
 .cartImage{
   width: 40%;
+}
+
+.homeContent{
+  color:white;
+  margin: 0;
+  padding: 0;
+  background: url("https://images.unsplash.com/photo-1502227649638-0da466df619e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce94e791fe520faf0db6026c17399ded&auto=format&fit=crop&w=1350&q=80") no-repeat center;
+  width: 100%;
+  height: 680px;
 }
