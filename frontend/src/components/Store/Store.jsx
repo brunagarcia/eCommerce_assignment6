@@ -9,9 +9,9 @@ export default class Store extends Component {
   render(){
 
     return(
-        <div>
+        <div className="storeBg">
           <h2>Hello {this.props.username}! Welcome to plants!!!</h2>
-          <h2>Store Page</h2>
+          <h3 className="subTitlte">Store Page</h3>
 
           <Link to="/store/cactus">
           <button type="button" className="btn btn-outline-success">Cactus</button>

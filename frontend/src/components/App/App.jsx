@@ -77,7 +77,7 @@ class App extends Component {
   render() {
       return (
         <div className="App">
-          <header className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+          <header className="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white">
             <img src={logo} className="App-logo" alt="logo" />
             <h1 className="my-0 mr-md-auto font-weight-normal">Plants Store</h1>
             <Nav />

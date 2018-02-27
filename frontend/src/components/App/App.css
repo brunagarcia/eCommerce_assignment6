@@ -42,6 +42,10 @@
   width: 50%;
 }
 
+.total{
+  color: green;
+}
+
 .table{
   align-content: center;
   width: 90%;
@@ -52,11 +56,39 @@
   width: 40%;
 }
 
+.formSpace .mainTitle{
+  margin: 8% auto;
+}
+
+.formSpace{
+  height: 100%;
+  color: black;
+  margin: 2% auto;
+  padding: 5%;
+  background: rgba(255, 255, 255, 0.474);
+  width: 80%;
+}
+
+.btn {
+  margin: 1.5% 2%;
+}
+
+.storeBg{
+  margin: 0;
+  background: url("http://www.fubiz.net/wp-content/uploads/2016/03/fotoliacactus-1.jpeg") no-repeat center;
+  width: 100%;
+  height: 640px;
+}
+
 .homeContent{
   color:white;
   margin: 0;
   padding: 0;
   background: url("https://images.unsplash.com/photo-1502227649638-0da466df619e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce94e791fe520faf0db6026c17399ded&auto=format&fit=crop&w=1350&q=80") no-repeat center;
   width: 100%;
-  height: 680px;
+  height: 640px;
+}
+
+.subTitlte{
+  color: rgb(52, 63, 54);
 }
